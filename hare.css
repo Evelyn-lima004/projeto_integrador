@@ -1,8 +1,9 @@
 .hare {
     width: 100%;
     height: 100vh;
-    background-color: #eebaced8; 
-    /* background-blend-mode: darken; */
+    background-image: url(img/background1.jpeg);
+    background-color: rgba(65, 4, 19, 0.658); 
+    background-blend-mode: darken;
     background-size: cover; 
     display: flex;
     flex-direction: column;
