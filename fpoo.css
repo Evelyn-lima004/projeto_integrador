@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.fpoo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/fpoo.png");
+    background-color: #a061b9bb; 
+    background-blend-mode: darken; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+    /* justify-content: center; */
+    text-align: justify;
+    padding: 20px 50px;
+}
+
+.fpoo header {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.item-fpoo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.parte-fpoo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parte-fpoo .bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagem-fpoo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.imagem-fpoo img {
+    width: 392px;
+    height: 250px;
+    
+}
+
+.fpoo h3 {
+    color: white;
+}
