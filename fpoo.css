@@ -52,13 +52,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 25px;
 }
 
 .imagem-fpoo img {
     width: 392px;
     height: 250px;
-    
 }
 
 .fpoo h3 {
